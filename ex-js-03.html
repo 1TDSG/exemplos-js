@@ -15,9 +15,27 @@
         genero    = "Masculino";
         profissao = "Professor";
 
-        alert("Nome : " + nome+"\nIdade : "+idade+"\nGênero : "+genero+"\nProfissão : "+profissao);
+        //alert("Nome : " + nome+"\nIdade : "+idade+"\nGênero : "+genero+"\nProfissão : "+profissao);
+        console.log("Nome : " + nome+"\nIdade : "+idade+"\nGênero : "+genero+"\nProfissão : "+profissao);
+        console.log("Tamanho da variável nome: " + nome.length);
+        console.log("Acessando caractéres de nome: " + nome.charAt(8));
+        console.log("Buscando uma primeira ocorrência de determinado caractére na String : "+ nome.indexOf("e"));
+        console.log("Buscando uma última ocorrência de determinado caractére na String : "+ nome.lastIndexOf("e"));
+        console.log("Realizando o replace de um caractére na String : "+ nome.replace("e","X"));
+        console.log("Deixando em  maiúscula:" + nome.toUpperCase());
+        console.log("Deixando em  minúscula:" + nome.toLowerCase());
 
-                console.log("Nome : " + nome+"\nIdade : "+idade+"\nGênero : "+genero+"\nProfissão : "+profissao);
+        //Laço for
+        for(var i = 0; i < nome.length; i++){
+          console.log("Valor do contador : Posição :" +i+" = "+nome.charAt(i));
+        }
+
+        /*Loop ou laço while
+        while(true){
+          console.log(nome);
+        }
+
+        */
 
      </script>
 
