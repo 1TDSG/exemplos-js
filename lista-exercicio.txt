@@ -13,10 +13,11 @@ No Console escreva:
 ****
 Em um arquivo JS externo faça os exercícios abaixo.
 (4) Agora que você já sabe utilizar o evento 'click', aprenda a usar o 'mouseover'.
-Na pasta imagem existe duas imagens utilize as para exercitar sua imaginação, o passar o mouse em cima da 'lampada.gif' altere ela para 'lampada-on.gif'.
+Na pasta imagem existe duas imagens utilize as para exercitar sua imaginação, ao passar o mouse em cima da 'lampada.gif' altere ela para 'lampada-on.gif'.
+A ideia aqui é adicionar uma div com uma imagem a da lampada.gif e ao passar o mouse em cima, voc6e deve trocar o conteúdo do src do elemento img pelo valor da outra imagem.
 
 (5) Faça um comentário de uma linha no JavaScript no exercicio anterior
-(6) Crie dois botões no HTML chamados: 'Verde', ,'Vermelho'. ao clicar neles, o style="background-color: {COR-SELECIONADA}" vai ser alterado dinamicamente. Escolha a cor que desejar.
+(6) Crie dois botões no HTML chamados: 'Verde', ,'Vermelho'. ao clicar neles, o style="background-color: {COR-SELECIONADA}" vai ser alterado dinamicamente. Escolha a cor que desejar. Determinar IDs para estes elementos.
 (7)Faça um comentário de varias linhas no JavaScript do exercicio anterior.
 (8)Crie uma div vazia cujo o id dela é 'resultado' Insira via JavaScript assim que a tela carregar o seguinte texto: 'Esse texto foi inserido pelo JavaScript...'
 (9) Agora crie um botão que ao ser clicado faça a mesma ação do exercício anterior.
