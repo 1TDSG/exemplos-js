@@ -7,7 +7,8 @@ Em um bloco JS no arquivo html faça os exercícios abaixo.
 
 No Console escreva:
 (1) Faça uma mensagem de 'Olá Mundo'.... Exemplo: 'Olá Mundo'
-(2) Faça uma saída de soma de 2 inteiros, ex: Resultado (2 + (3) Crie(1 div, 1 p e 1 span)atribua IDs a esses elementos, adicione algum texto dentro destes elementos e exiba a quantidade de letras que possuem cada texto inserido nos elementos html. utilize as funçoes do DOM.
+(2) Faça uma saída de soma de 2 inteiros, ex: Resultado (2 + 3).
+(3) Crie(1 div, 1 p e 1 span)atribua IDs a esses elementos, adicione algum texto dentro destes elementos e exiba a quantidade de letras que possuem cada texto inserido nos elementos html. utilize as funçoes do DOM.
 
 ****
 Em um arquivo JS externo faça os exercícios abaixo.
