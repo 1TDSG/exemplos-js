@@ -4,6 +4,8 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width,initial-scale=1">
      <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+     <script type="text/javascript" src="./js/ex-js-05.js"></script>
+
      <title>EXEMPLO-JS</title>
    </head>
    <body>
@@ -21,11 +23,16 @@
          </nav>
        </header>
 
-        <!-- Utilização do Javascript inline-->
-        <div onclick="alert('Ola Mundo!')" onmouseover="alert('Mouse Entrando!')" onmouseleave="alert('Mouse Saindo!')">
-          EXEMPLO
+        <div>
+          <button type="button" onclick="document.getElementById('exemplo').innerHTML = Date()">Data de hoje</button>
+        </div>
+        <div>
+          <button type="button" onclick="soma(10,10)">SOMA</button>
         </div>
 
+        <div id="exemplo"></div>
+
      </div>
+
    </body>
 </html>
