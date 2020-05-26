@@ -1,3 +1,30 @@
+  console.log("Hello World!");
+  //  EX1
+  var num1 = 10;
+  var num2 = 10;
+  var result = num1+num2;
+  console.log("Resultado: " + result);
+
+  // EX 2
+/*function verQtdLetras1() {
+  var div1 = document.getElementById('elem-1');
+  console.log("Quantidade de letras: " + div1.innerHTML.length);
+}
+
+function verQtdLetras2() {
+  var div1 = document.getElementById('elem-2');
+  console.log("Quantidade de letras: " + div1.innerHTML.length);
+}
+
+function verQtdLetras3() {
+  var div1 = document.getElementById('elem-3');
+  console.log("Quantidade de letras: " + div1.innerHTML.length);
+}*/
+
+function verQtdLetras(element) {
+  console.log("Quantidade de letras: " + element.innerHTML.length);
+}
+
 // EX 4 //
 
 function turnON(element) {
