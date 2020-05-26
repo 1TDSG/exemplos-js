@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+    <title>EXERC 1</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="ex-js-01.html">Exemplo-1</a></li>
+                    <li><a href="ex-js-02.html">Exemplo-2</a></li>
+                    <li><a href="ex-js-03.html">Exemplo-3</a></li>
+                    <li><a href="ex-js-04.html">Exemplo-4</a></li>
+                    <li><a href="ex-js-05.html">Exercícios</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div>
+            <section>
+                <p id="elementP"></p>
+                <span id="elementSpan"></span>
+            </section>
+            <figure><img id="imgLampada" src="img/lampada.gif" onclick="acende()" onmouseover="apaga()"></figure>
+            <div><button id="umbotao" name="verde" onclick="alteraCor(this)">APENAS UM BOTÃO</button></div>
+            <div><button id="umbotao" name="vermelho" onclick="alteraCor(this)">APENAS UM BOTÃO</button></div>
+            <div><button id="umbotao" onclick="alteraCor(this)">APENAS UM BOTÃO</button></div>
+            <p id="resultado">Javascript ...</p>
+            <div><button id="umbotao" onclick="addText()">CLICK AQUI</button></div>
+        </div>
+
+    </div>
+    <script>
+        console.log('Olá mundo!!');
+
+        var numero1 = 2;
+        var numero2 = 5;
+        console.log("Resultado: ", numero1 + numero2)
+
+        var elementP = document.getElementById('elementP');
+        elementPtext = elementP.innerHTML = "Murilo Pereira da Silva";
+        console.log("O numero de letras desse texto é : " + elementP.innerHTML.length);
+    </script>
+    <script type="text/javascript" src="js/murilo84319.js"></script>
+</body>
+
+</html>

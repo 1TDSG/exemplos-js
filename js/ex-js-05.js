@@ -5,11 +5,11 @@ id = img-lmp
 */
 
 function acende(elemento) {
-  elemento.src = "./img/lampada-on.gif";
+    elemento.src = "./img/lampada-on.gif";
 }
 
 function apaga(elemento) {
-  elemento.src = "./img/lampada.gif";
+    elemento.src = "./img/lampada.gif";
 }
 
 /*
@@ -19,13 +19,13 @@ Ex-6
 Ex-7
 */
 function alteraCor(elemento) {
-  if(elemento.name == "verde"){
-    elemento.style.backgroundColor = "#00ff00";
-  }else if(elemento.name == "vermelho"){
-    elemento.style.backgroundColor = "#ff0000";
-  }else{
-    elemento.style.backgroundColor = "#ff00ff";
-  }
+    if (elemento.name == "verde") {
+        elemento.style.backgroundColor = "#00ff00";
+    } else if (elemento.name == "vermelho") {
+        elemento.style.backgroundColor = "#ff0000";
+    } else {
+        elemento.style.backgroundColor = "#ff00ff";
+    }
 }
 
 /*
@@ -36,7 +36,7 @@ Ex-8
 */
 
 function insereNaDiv() {
-  document.getElementById('ex').innerHTML = "Esse texto foi inserido pelo JavaScript...";
+    document.getElementById('ex').innerHTML = "Esse texto foi inserido pelo JavaScript...";
 }
 
 /*
@@ -45,5 +45,5 @@ Ex-9
 */
 
 function insereNaDiv2() {
-  document.getElementById('ex').innerHTML = "Esse texto foi inserido pelo JavaScript, atrvés de um Botão...";
+    document.getElementById('ex').innerHTML = "Esse texto foi inserido pelo JavaScript, atrvés de um Botão...";
 }
