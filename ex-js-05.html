@@ -23,16 +23,43 @@
          </nav>
        </header>
 
-        <div>
-          <button type="button" onclick="document.getElementById('exemplo').innerHTML = Date()">Data de hoje</button>
-        </div>
-        <div>
-          <button type="button" onclick="soma(10,10)">SOMA</button>
-        </div>
+        <script type="text/javascript">
+            /*
+            Ex-nr1
+            console.log("Olá Mundo!!");
+            */
+            /*
+            Ex-nr2
+            var nr1 = 10;
+            var nr2 = 10;
+            var result = (nr1 + nr2);
+            console.log("Resultado :" + result);
+            */
+            /*
+            Ex-nr3
 
-        <div id="exemplo"></div>
 
+            function verQtdLetras1() {
+              var div1 = document.getElementById('elem-1');
+              console.log("Quantidade de letras : " + div1.innerHTML.length);
+            }
+            function verQtdLetras2() {
+              var div1 = document.getElementById('elem-2');
+              console.log("Quantidade de letras : " + div1.innerHTML.length);
+            }
+            function verQtdLetras3() {
+              var div1 = document.getElementById('elem-3');
+              console.log("Quantidade de letras : " + div1.innerHTML.length);
+            }
+        */
+
+        function verQtdLetras(elemento) { console.log("Quantidade de letras : " + elemento.innerHTML.length);}
+
+        </script>
+          <div id="elem-1" onclick="verQtdLetras(this)">Javascript</div>
+          <p id="elem-2" onclick="verQtdLetras(this)">css</p>
+          <span id="elem-3" onclick="verQtdLetras(this)">HTML</span>
+          
      </div>
-
    </body>
 </html>
