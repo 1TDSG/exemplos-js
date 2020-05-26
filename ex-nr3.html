@@ -1,0 +1,50 @@
+  <!Doctype html>
+  <html lang="pt-br" dir="ltr">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+     <script type="text/javascript" src="./js/ex-js-05.js"></script>
+
+     <title>EXEMPLO-JS</title>
+   </head>
+   <body>
+     <div class="container">
+       <header>
+         <nav>
+           <ul>
+             <li><a href="index.html">Início</a></li>
+             <li><a href="ex-js-01.html">Exemplo-1</a></li>
+             <li><a href="ex-js-02.html">Exemplo-2</a></li>
+             <li><a href="ex-js-03.html">Exemplo-3</a></li>
+             <li><a href="ex-js-04.html">Exemplo-4</a></li>
+             <li><a href="ex-js-05.html">Exercícios</a></li>
+           </ul>
+         </nav>
+       </header>
+
+        <script type="text/javascript">
+        function verQtdLetras1(){
+          var div1 = document.getElementsById('elem-1');
+          console.log("Quantidade de letras : " + div1.innerHTML.length);
+        }
+        function verQtdLetras2(){
+          var div1 = document.getElementsById('elem-2');
+          console.log("Quantidade de letras : " + div1.innerHTML.length);
+
+        }
+        function verQtdLetras3(){
+          var div1 = document.getElementsById('elem-3');
+          console.log("Quantidade de letras : " + div1.innerHTML.length);
+
+        }
+
+        </script>
+          <div id="elem-1" onclick="verQtdLetras(this)">Javascript</div>
+          <p id="elem-2" onclick="verQtdLetras(this)">css</p>
+          <span id="elem-3" onclick="verQtdLetras(this)">HTML</span>
+
+     </div>
+
+   </body>
+</html>
