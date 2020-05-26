@@ -8,7 +8,7 @@
 
      <title>EXEMPLO-JS</title>
    </head>
-   <body>
+   <body onload="insereNaDiv()">
      <div class="container">
        <header>
          <nav>
@@ -59,7 +59,19 @@
           <div id="elem-1" onclick="verQtdLetras(this)">Javascript</div>
           <p id="elem-2" onclick="verQtdLetras(this)">css</p>
           <span id="elem-3" onclick="verQtdLetras(this)">HTML</span>
-          
+            <div>
+              <img id="img-lmp" src="./img/lampada.gif" alt="lampada" onmouseover="acende(this)" onmouseout="apaga(this)">
+            </div>
+          <div>
+            <button type="button" id="btn-verde" name="verde" onclick="alteraCor(this)">VERDE</button>
+          </div>
+          <div>
+            <button type="button" id="btn-vermelho" name="vermelho" onclick="alteraCor(this)">VERMELHO</button>
+          </div>
+          <div id="ex"></div>
+          <div>
+            <button type="button" onclick="insereNaDiv2()">INSERE NA DIV</button>
+          </div>
      </div>
    </body>
 </html>
